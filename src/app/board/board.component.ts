@@ -29,7 +29,6 @@ export class BoardComponent implements OnInit {
   }
 
   winningSquares(index: number) {
-    console.log(index);
     if (this.winner === 'null')
       return false;
     else if (index === this.array1[0]  ||
