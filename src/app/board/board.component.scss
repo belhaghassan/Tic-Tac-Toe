@@ -15,12 +15,20 @@ app-square {
 }
 
 .data {
-    font-family: sans-serif;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
 }
 
-h2 {
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
+}
+h3, h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: auto;
+    text-align: center;
+    font-size: large;
 }
 #playerx {
     padding: 10px;

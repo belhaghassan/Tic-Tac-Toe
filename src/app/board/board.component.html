@@ -1,6 +1,5 @@
 <div class='data'>
     <h1>Welcome to Simple Tic Tac Toe</h1>
-    <br>
     <h3 id='playerx'>Player X <br>Wins: {{ xwins }}</h3>
     <h3 id='playero'>Player O <br>Wins: {{ owins }}</h3>
     <h2>Current Player: {{ player }} </h2>
@@ -9,11 +8,7 @@
     nbButton outline status="primary">Start new Game</button>
     <br>
 </div>
-
-
-   
-
-  
+ 
 
 <h2 *ngIf="winner!='null'">
         Player {{ winner }} won the game!
